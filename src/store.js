@@ -22,10 +22,12 @@ export default new Vuex.Store({
       console.log('fetchPosts');
       fetch(url)
         .then(res => res.json())
-        .then(data => (commit('updatePosts', {
-          lastPostId: data.pop().id,
-          posts: data,
-        })))
+        .then(data =>
+          commit('updatePosts', {
+            lastPostId: data.pop().id,
+            posts: data,
+          })
+        )
         .catch(console.error);
     },
   },

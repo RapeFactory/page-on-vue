@@ -6,7 +6,7 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import Post from './Post.vue'
+import Post from './Post.vue';
 
 export default {
   name: 'Blog',

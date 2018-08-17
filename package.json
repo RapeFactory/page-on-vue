@@ -10,8 +10,8 @@
   },
   "homepage": "https://rapefactory.github.io/page-on-vue/",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/RapeFactory/page-on-vue.git"
+    "type": "git",
+    "url": "https://github.com/RapeFactory/page-on-vue.git"
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
@@ -39,7 +39,9 @@
       "plugin:vue/essential",
       "@vue/prettier"
     ],
-    "rules": {},
+    "rules": {
+      "prettier/prettier": "error"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

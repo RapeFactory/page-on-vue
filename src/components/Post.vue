@@ -22,10 +22,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .post {
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
-  }
+.post {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+}
 </style>
