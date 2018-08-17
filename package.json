@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve --port 9999",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist"
+    "piblish": "gh-pages -d dist",
+    "deploy": "vue-cli-service build && gh-pages -d dist"
   },
   "homepage": "https://rapefactory.github.io/page-on-vue/",
   "repository": {
