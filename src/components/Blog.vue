@@ -1,5 +1,6 @@
 <template>
   <div class="blog">
+    <h1>Fake Posts Blog</h1>
     <Post v-for="post in posts" :key="post.id" v-bind="post" />
   </div>
 </template>
@@ -29,6 +30,5 @@ export default {
 .blog {
   margin-top: 80px;
   width: 40%;
-  height: 100vh;
 }
 </style>

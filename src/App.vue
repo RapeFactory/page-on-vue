@@ -39,7 +39,7 @@ body {
     border-radius: 5px;
     background-color: lighten($maingrey, 50%);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
-    margin: 3px;
+    margin: 5px;
     width: 150px;
     height: 50px;
     display: inline-block;
