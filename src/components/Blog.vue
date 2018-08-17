@@ -29,6 +29,5 @@ export default {
 <style scoped lang="scss">
 .blog {
   margin-top: 80px;
-  width: 40%;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="grid">
     <Blog />
   </div>
 </template>
@@ -15,3 +15,14 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

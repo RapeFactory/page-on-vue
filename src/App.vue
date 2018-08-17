@@ -24,7 +24,6 @@ body {
   color: $maingrey;
 }
 #nav {
-  height: 60px;
   padding: 5px;
   background: #fff;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
