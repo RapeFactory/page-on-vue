@@ -1,0 +1,34 @@
+<template>
+  <div class="blog">
+    <Post v-for="post in posts" :key="post.id" v-bind="post" />
+  </div>
+</template>
+
+<script>
+import { mapState, mapActions } from 'vuex';
+import Post from './Post.vue'
+
+export default {
+  name: 'Blog',
+  components: {
+    Post,
+  },
+  computed: {
+    ...mapState(['posts']),
+  },
+  methods: {
+    ...mapActions(['fetchPosts']),
+  },
+  created() {
+    this.fetchPosts();
+  },
+};
+</script>
+
+<style scoped lang="scss">
+.blog {
+  margin-top: 80px;
+  width: 40%;
+  height: 100vh;
+}
+</style>
