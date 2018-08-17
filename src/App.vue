@@ -10,9 +10,9 @@
 
 <style lang="scss">
 $maingrey: #2c3e50;
-$maingreen: #42b983;
+$maingreen: #276e4e;
 #app {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -36,7 +36,7 @@ $maingreen: #42b983;
     transition: all 0.5s ease;
     &.router-link-exact-active {
       color: $maingreen;
-      background-color: lighten($maingreen, 30%);
+      background-color: lighten($maingreen, 50%);
     }
   }
 }
