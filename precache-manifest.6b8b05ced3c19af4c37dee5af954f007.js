@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/page-on-vue/js/chunk-vendors.6343676b.js"
   },
   {
-    "revision": "4563373487aabfe8b731",
-    "url": "/page-on-vue/js/app.422f25c0.js"
+    "revision": "481917133aa8456a53eb",
+    "url": "/page-on-vue/js/app.080b44b7.js"
   },
   {
     "revision": "3bb55be5d09661f7611c",
     "url": "/page-on-vue/js/about.f36e8219.js"
   },
   {
-    "revision": "f8e2242acc6127785636209a161450cf",
+    "revision": "d9673fbe986b1bc0e3711a6a98f4fd85",
     "url": "/page-on-vue/index.html"
   },
   {
-    "revision": "4563373487aabfe8b731",
-    "url": "/page-on-vue/css/app.ff9c0fd4.css"
+    "revision": "481917133aa8456a53eb",
+    "url": "/page-on-vue/css/app.02a7fa4c.css"
   }
 ];
