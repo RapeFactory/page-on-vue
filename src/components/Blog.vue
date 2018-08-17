@@ -18,10 +18,10 @@ export default {
     ...mapState(['posts']),
   },
   methods: {
-    ...mapActions(['fetchPosts']),
+    ...mapActions(['getPosts']),
   },
   created() {
-    this.fetchPosts();
+    this.getPosts();
   },
 };
 </script>
