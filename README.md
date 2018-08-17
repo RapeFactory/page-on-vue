@@ -11,7 +11,15 @@ npm run serve
 ```
 npm run build
 ```
+#### Don't forget vue.config.js
 
+``` js
+module.exports = {
+  baseUrl: process.env.NODE_ENV === 'production'
+    ? '/page-on-vue/'
+    : '/'
+}
+```
 ### Lints and fixes files
 
 ```
