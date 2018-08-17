@@ -11,17 +11,27 @@
 <style lang="scss">
 $maingrey: #2c3e50;
 $maingreen: #276e4e;
+
+body {
+  margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $maingrey;
 }
 #nav {
+  height: 60px;
   padding: 5px;
-  border-radius: 10px;
+  background: #fff;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
   a {
     font-weight: bold;
     color: $maingrey;
